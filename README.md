@@ -28,18 +28,25 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
  - Test: 368 (25%)
 
 ### 1. Logistics Regression Model
+![image](https://user-images.githubusercontent.com/37673834/169258872-4b8e00a5-164f-4a29-9985-805864f0d7c5.png)
+
+
  - Logistic regression is best used to predict binary outputs with two possible values labeled "0" or "1".
  - Logistic model output can be one of two classes: stayed/left, pass/fail, win/lose, etc.
  - Logistic regression algorithm works by implementing a linear equation first with independent predictors to predict a value.
  
 
 ### 2. Random Forest Classifier Model
+
  - Decision Trees are supervised Machine Learning technique where the data is split according to a certain condition/parameter. 
  - Random Forest Classifier is a type of ensemble algorithm. 
  - It creates a set of decision trees from randomly selected subset of training set. 
  - It then combines votes from different decision trees to decide the final class of the test object.
 
 ### 3. Deep Learning Model
+![image](https://user-images.githubusercontent.com/37673834/169258022-175f907d-5b94-4af6-ab39-aec7fd98cc58.png)
+
+
 **Parameter:**
 1. Input = 50 (from table fields)
 2. Hidden Layer = 3 layers (dense, 500 neurons each, relu activation function)
