@@ -49,6 +49,11 @@ y_pred = model.predict(X_test)
  - Random Forest Classifier is a type of ensemble algorithm. 
  - It creates a set of decision trees from randomly selected subset of training set. 
  - It then combines votes from different decision trees to decide the final class of the test object.
+``` ruby
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+```
 
 ### 3. Deep Learning Model
 ![image](https://user-images.githubusercontent.com/37673834/169259386-f9650727-6042-40de-9f92-74e5b1d58a46.png)
