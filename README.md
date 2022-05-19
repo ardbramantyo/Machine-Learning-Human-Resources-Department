@@ -48,3 +48,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 5. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html
 6. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
 7. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+8. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
+9. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
+10. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+11. https://towardsdatascience.com/a-practical-guide-to-implementing-a-random-forest-classifier-in-python-979988d8a263
