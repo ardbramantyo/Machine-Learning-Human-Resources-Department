@@ -3,6 +3,15 @@
 #### Overview
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+#### Tools:
+1. Pandas
+2. Numpy
+3. Seaborn
+4. Matplotlib
+5. Scikit-Learn
+6. Tensorflow
+7. Keras
+
 |   Categorical   |         Numerical        |
 |-----------------|--------------------------|
 | BusinessTravel  | Age                      |
@@ -55,3 +64,4 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 12. https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
 13. https://www.tensorflow.org/guide/keras/train_and_evaluate
 14. https://matplotlib.org/3.5.0/plot_types/index.html
+15. https://www.tensorflow.org/api_docs/python/tf/keras/Model
