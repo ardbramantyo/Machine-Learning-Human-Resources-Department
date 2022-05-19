@@ -43,3 +43,4 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ### Reference
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 2. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+3. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html
