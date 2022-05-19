@@ -44,8 +44,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
  - It then combines votes from different decision trees to decide the final class of the test object.
 
 ### 3. Deep Learning Model
-![image](https://user-images.githubusercontent.com/37673834/169258022-175f907d-5b94-4af6-ab39-aec7fd98cc58.png)
-
+![image](https://user-images.githubusercontent.com/37673834/169259386-f9650727-6042-40de-9f92-74e5b1d58a46.png)
 
 **Parameter:**
 1. Input = 50 (from table fields)
