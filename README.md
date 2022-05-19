@@ -5,6 +5,9 @@ The project is aimed to develop Machine Learning models and make comparative pre
 
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
+### Data Visualization
+![image](https://user-images.githubusercontent.com/37673834/169264841-d345b1dd-bdfd-4c06-a058-68fded5cdf3e.png)
+
 ### Data Cleaning
 To avoid AI misunderstanding when interpreting data, 2 variables (X) are made based on their data type and converting categorical variable (X_cat) into numerical using scikit-learn and concatenate both them back.
 
