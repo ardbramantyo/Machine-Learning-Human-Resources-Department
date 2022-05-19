@@ -6,36 +6,11 @@ Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analy
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
 #### Data Cleaning
+To avoid AI misunderstanding, 2 variables are made based on their data type: object and integer
+1. Categorical: Anything from the tables fields exclude Attrition with object data type
+2. Numerical:  Anything from the table fields with numerical data type.
 
-
-|   Categorical   |         Numerical        |
-|-----------------|--------------------------|
-| BusinessTravel  | Age                      |
-| Department      | DailyRate                |
-| EducationField  | DistanceFromHome         |
-| Gender          | Education                |
-| JobRole         | EnvironmentSatisfaction  |
-| MaritalStatus   | HourlyRate               |
-|                 | JobInvolvement           |
-|                 | JobLevel                 |
-|                 | JobSatisfaction          |
-|                 | MonthlyIncome            |
-|                 | MonthlyRate              |
-|                 | NumCompaniesWorked       |
-|                 | OverTime                 |
-|                 | PercentSalaryHike        |
-|                 | PerformanceRating        |
-|                 | RelationshipSatisfaction |
-|                 | StockOptionLevel         |
-|                 | TotalWorkingYears        |
-|                 | TrainingTimesLastYear    |
-|                 | WorkLifeBalance          |
-|                 | YearsAtCompany           |
-|                 | YearsInCurrentRole       |
-|                 | YearsSinceLastPromotion  |
-|                 | YearsWithCurrManager     |
-
-Converting using scikit-learn from Categorical field into number
+Converting Categorical Variable using scikit-learn into number:
 ``` ruby
 from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
