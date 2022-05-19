@@ -1,4 +1,4 @@
-### Comparative Methods of ML & DL Model to Predict Employee Attrition
+### Comparative Method of Machine Learning & Deep Learning Model to Predict Employee Attrition
 
 #### Overview
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
