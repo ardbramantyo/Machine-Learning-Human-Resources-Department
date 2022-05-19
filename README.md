@@ -52,3 +52,6 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 9. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 10. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 11. https://towardsdatascience.com/a-practical-guide-to-implementing-a-random-forest-classifier-in-python-979988d8a263
+12. https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
+13. https://www.tensorflow.org/guide/keras/train_and_evaluate
+14. https://matplotlib.org/3.5.0/plot_types/index.html
