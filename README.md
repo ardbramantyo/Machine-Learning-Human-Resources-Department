@@ -6,11 +6,13 @@ The project is aimed to develop Machine Learning models and make comparative pre
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
 #### Data Cleaning
-To avoid AI misunderstanding, 2 variables are made based on their data type.
-1. Categorical: Anything from fields exclude Attrition that has object data type
-2. Numerical:  Anything from fields that has numerical data type.
+To avoid AI misunderstanding when interpreting data, 2 variables (X) are made based on their data type and converting categorical variable (X_cat) into numerical using scikit-learn and concatenate both them back.
 
-Converting Categorical variable data type using scikit-learn into number:
+Variables:
+1. Categorical(X_cat): Anything from fields exclude Attrition that has object data type
+2. Numerical(X_numerical):  Anything from fields that has numerical data type.
+
+Code:
 ``` ruby
 from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
@@ -44,7 +46,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 4. Epochs = 100 
 5. Batch size = 50
 
-#### Deep Learning Performance:
+### Deep Learning Performance
 ![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
 
