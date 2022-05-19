@@ -37,6 +37,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
  
 
 ### 2. Random Forest Classifier Model
+![image](https://user-images.githubusercontent.com/37673834/169261437-ebbbbf42-e0c7-4dfa-8528-47c52edf93e9.png)
 
  - Decision Trees are supervised Machine Learning technique where the data is split according to a certain condition/parameter. 
  - Random Forest Classifier is a type of ensemble algorithm. 
@@ -46,7 +47,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ### 3. Deep Learning Model
 ![image](https://user-images.githubusercontent.com/37673834/169259386-f9650727-6042-40de-9f92-74e5b1d58a46.png)
 
-**Parameter:**
+**Parameter for training:**
 1. Input = 50 (from table fields)
 2. Hidden Layer = 3 layers (dense, 500 neurons each, relu activation function)
 3. Output = 1 (sigmoid activation function)
