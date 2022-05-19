@@ -16,7 +16,7 @@ from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
 X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ```
-### Model Accuracy Test
+### Model Accuracy Test Method:
 1. Logistic Regression
 2. Random Forest
 3. Deep Learning Model 
@@ -25,14 +25,12 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
  - Training: 1102 (75%)
  - Test: 368 (25%)
 
-### Logistics Regression Evaluation
+### 1. Logistics Regression Evaluation
 Accuracy 88.56%
 
-![image](https://user-images.githubusercontent.com/37673834/169197517-97158239-08e9-4fee-aa27-e0628af4fefa.png)
+### 2. Random Forest Evaluation
 
-
-
-### Deep Learning Model Evaluation
+### 3. Deep Learning Model Evaluation
 
 ![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
@@ -44,6 +42,10 @@ Accuracy 88.56%
 |   macro avg|      0.69  |    0.66 |     0.67  |     368 |
 |weighted avg|      0.82  |    0.83 |     0.83  |     368 |
 
+### Comparison
+
+![image](https://user-images.githubusercontent.com/37673834/169203314-84f5b0e0-2406-4e74-af64-d9022e0f4da9.png)
+Confusionf Matrix: Logistic Regression(left), Random Forest(mid), Deep Learning(right)
 
 ### Reference:
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
