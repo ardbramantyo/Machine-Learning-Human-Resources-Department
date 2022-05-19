@@ -43,5 +43,6 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ### Reference
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 2. https://seaborn.pydata.org/generated/seaborn.heatmap.html
-3. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
-4. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html
+3. https://seaborn.pydata.org/generated/seaborn.countplot.html
+4. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+5. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html
