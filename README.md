@@ -48,7 +48,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
 
-### Comparison
+### Confusion Matrix Comparison
 
 ![image](https://user-images.githubusercontent.com/37673834/169203314-84f5b0e0-2406-4e74-af64-d9022e0f4da9.png)
 Confusion Matrix: Logistic Regression(left), Random Forest(mid), Deep Learning(right)
