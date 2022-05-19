@@ -40,7 +40,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 
 ![image](https://user-images.githubusercontent.com/37673834/169185958-bc168712-12f0-46a0-bc03-00b51799d58f.png)
 
-### Reference
+### Reference:
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 2. https://seaborn.pydata.org/generated/seaborn.heatmap.html
 3. https://seaborn.pydata.org/generated/seaborn.countplot.html
