@@ -66,7 +66,7 @@ y_pred = model.predict(X_test)
 ### Confusion Matrix Comparison
 
 ![image](https://user-images.githubusercontent.com/37673834/169203314-84f5b0e0-2406-4e74-af64-d9022e0f4da9.png)
-   Confusion Matrix: Logistic Regression(left), Random Forest(mid), and Deep Learning(right)
+Confusion Matrix: Logistic Regression(left), Random Forest(mid), and Deep Learning(right)
 
 |   Method           |Accuracy (%)|
 |--------------------|------------|
