@@ -48,9 +48,9 @@ onehotencoder = OneHotEncoder()
 X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ```
 
-#### Model Accuracy
+#### Deep Learning Model Evaluation
 
-![image](https://user-images.githubusercontent.com/37673834/169185958-bc168712-12f0-46a0-bc03-00b51799d58f.png)
+![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
 ### Reference:
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
