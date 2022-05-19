@@ -12,6 +12,9 @@ Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analy
 6. Tensorflow
 7. Keras
 
+#### Data Cleaning
+
+
 |   Categorical   |         Numerical        |
 |-----------------|--------------------------|
 | BusinessTravel  | Age                      |
