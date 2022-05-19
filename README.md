@@ -46,3 +46,4 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 3. https://seaborn.pydata.org/generated/seaborn.countplot.html
 4. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 5. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html
+6. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
