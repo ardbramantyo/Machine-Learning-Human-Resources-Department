@@ -32,7 +32,7 @@ Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analy
 
 #### Model Accuracy
 
-![image](https://user-images.githubusercontent.com/37673834/169185594-d78c7672-0dcb-487c-8323-bd9b7d559ced.png)
+![image](https://user-images.githubusercontent.com/37673834/169185958-bc168712-12f0-46a0-bc03-00b51799d58f.png)
 
 ### Reference
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
