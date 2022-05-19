@@ -34,18 +34,17 @@ Accuracy 88.56%
 
 ![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
-|            | precision  |  recall | f1-score  | support |
-|------------|------------|---------|-----------|---------|
-|         0  |      0.88  |     0.92|     0.90  |     307 |
-|          1 |      0.50  |    0.39 |     0.44  |      61 |
-|    accuracy|            |         |     0.83  |     368 |
-|   macro avg|      0.69  |    0.66 |     0.67  |     368 |
-|weighted avg|      0.82  |    0.83 |     0.83  |     368 |
 
 ### Comparison
 
 ![image](https://user-images.githubusercontent.com/37673834/169203314-84f5b0e0-2406-4e74-af64-d9022e0f4da9.png)
-Confusionf Matrix: Logistic Regression(left), Random Forest(mid), Deep Learning(right)
+Confusion Matrix: Logistic Regression(left), Random Forest(mid), Deep Learning(right)
+
+|   Method           |Accuracy (%)|
+|--------------------|------------|
+| Logistic Regression|         89 |
+| Random Forest      |         85 |
+| Deep Learning      |         83 |
 
 ### Reference:
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
@@ -64,4 +63,5 @@ Confusionf Matrix: Logistic Regression(left), Random Forest(mid), Deep Learning(
 14. https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
 15. https://www.tensorflow.org/guide/keras/train_and_evaluate
 16. https://www.tensorflow.org/api_docs/python/tf/keras/Model
-17. https://towardsdatascience.com/a-practical-guide-to-implementing-a-random-forest-classifier-in-python-979988d8a263
+17. https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
+18. https://towardsdatascience.com/a-practical-guide-to-implementing-a-random-forest-classifier-in-python-979988d8a263
