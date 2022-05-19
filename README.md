@@ -1,4 +1,7 @@
-### Machine Learning Model to Predict Employee Attrition 
+### Machine Learning Model to Predict Employee Attrition
+
+#### Overview
+Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 |   Categorical   |         Numerical        |
 |-----------------|--------------------------|
@@ -32,4 +35,5 @@
 ![image](https://user-images.githubusercontent.com/37673834/169185594-d78c7672-0dcb-487c-8323-bd9b7d559ced.png)
 
 ### Reference
-1. https://www.udemy.com/course/data-science-for-business-6-real-world-case-studies/
+1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+2. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
