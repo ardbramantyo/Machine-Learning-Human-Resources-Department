@@ -3,7 +3,7 @@
 #### Overview
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-** **Tools:
+**Tools:**
 1. Pandas
 2. Numpy
 3. Seaborn
