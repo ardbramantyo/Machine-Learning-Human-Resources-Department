@@ -1,14 +1,16 @@
-### Comparative Method of Machine Learning & Deep Learning Model to Predict Employee Attrition
+### Comparative Machine Learning Method to Predict Employee Attrition
 
-#### Overview
+### Overview
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+
+This project is aimed to develop models and make comparative prediction from employees data using Machine Learning that could predict Employees attrition.
 
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
 #### Data Cleaning
 To avoid AI misunderstanding, 2 variables are made based on their data type: object and integer
-1. Categorical: Anything from the tables fields exclude Attrition with object data type
-2. Numerical:  Anything from the table fields with numerical data type.
+1. Categorical: Anything from fields exclude Attrition  object data type
+2. Numerical:  Anything from fields with numerical data type.
 
 Converting Categorical Variable using scikit-learn into number:
 ``` ruby
@@ -16,20 +18,23 @@ from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
 X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ```
-Model Accuracy Test Method:
+### Model Accuracy Test
 1. Logistic Regression
 2. Random Forest
-3. Deep Learning Model
+3. Deep Learning Model 
 
-#### Logistics Regression Evaluation
-Accuracy measurement:
-Training: 1102 (75%)
-Test: 368 (25%)
+### Accuracy measurement:
+ - Training: 1102 (75%)
+ - Test: 368 (25%)
+
+### Logistics Regression Evaluation
 Accuracy 88.56%
 
 ![image](https://user-images.githubusercontent.com/37673834/169197517-97158239-08e9-4fee-aa27-e0628af4fefa.png)
 
-#### Deep Learning Model Evaluation
+
+
+### Deep Learning Model Evaluation
 
 ![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
