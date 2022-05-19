@@ -1,8 +1,6 @@
 ### Comparative Machine Learning Method to Predict Employee Attrition
-
-### Overview
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-
+### Overview
 This project is aimed to develop models and make comparative prediction from employees data using Machine Learning that could predict Employees attrition.
 
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
