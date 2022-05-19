@@ -54,8 +54,8 @@ y_pred = model.predict(X_test)
 ### 3. Deep Learning Model
 ![image](https://user-images.githubusercontent.com/37673834/169259386-f9650727-6042-40de-9f92-74e5b1d58a46.png)
 **Parameter for training:**
-1. Input = 50 (from table fields)
-2. Hidden Layer = 3 layers (dense, 500 neurons each, relu activation function)
+1. Input layer = 50 (from table fields)
+2. Hidden layer = 3 layers (dense, 500 neurons each, relu activation function)
 3. Output = 1 (sigmoid activation function)
 4. Epochs = 100 
 5. Batch size = 50
