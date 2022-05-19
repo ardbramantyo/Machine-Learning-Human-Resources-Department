@@ -3,14 +3,7 @@
 #### Overview
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-**Tools:**
-1. Pandas
-2. Numpy
-3. Seaborn
-4. Matplotlib
-5. Scikit-Learn
-6. Tensorflow
-7. Keras
+**Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
 #### Data Cleaning
 
