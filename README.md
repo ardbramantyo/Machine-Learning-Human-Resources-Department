@@ -29,7 +29,7 @@
 
 #### Model Accuracy
 
-![image](https://user-images.githubusercontent.com/37673834/169184978-010f21e1-579c-4040-a54f-9ac23753848b.png)
+![image](https://user-images.githubusercontent.com/37673834/169185594-d78c7672-0dcb-487c-8323-bd9b7d559ced.png)
 
 ### Reference
 1. https://www.udemy.com/course/data-science-for-business-6-real-world-case-studies/
