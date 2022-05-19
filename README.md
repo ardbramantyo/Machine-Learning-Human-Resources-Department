@@ -9,7 +9,7 @@ The project is aimed to develop Machine Learning models and make comparative pre
 ![image](https://user-images.githubusercontent.com/37673834/169264965-dfecf0e7-af31-44c7-8209-24530e81043c.png)
 
 ### Data Cleaning
-To avoid AI misunderstanding when interpreting data, 2 variables (X) are made based on their data type and converting categorical variable (X_cat) into numerical using scikit-learn and concatenate both them back.
+To avoid AI misunderstanding when interpreting data, 2 variables (X) are made based on their data type and converting categorical variable (X_cat) into numerical using scikit-learn and concatenate both of them back.
 
 Variables:
 1. Categorical(X_cat): Anything from fields exclude Attrition that has object data type
