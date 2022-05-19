@@ -30,7 +30,7 @@ Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analy
 |                 | YearsSinceLastPromotion  |
 |                 | YearsWithCurrManager     |
 
-```
+``` ruby
 from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
 X_cat = onehotencoder.fit_transform(X_cat).toarray()
