@@ -75,7 +75,7 @@ Confusion Matrix: Logistic Regression(left), Random Forest(mid), and Deep Learni
 | Deep Learning      |         83 |
 
 ### Conclusion
-Based on analysis with 3 different Machine Learning Methods, Logistic Regression has best Accuracy value (89%) and suitable to be applied to predict employee attriction.
+Based on analysis with 3 different Machine Learning Methods, Logistic Regression has highest Accuracy value (89%) and best suitable to be applied to predict employee attriction.
 ### Reference:
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 2. https://matplotlib.org/3.5.0/plot_types/index.html
