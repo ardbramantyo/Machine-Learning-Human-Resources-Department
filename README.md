@@ -28,9 +28,10 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
  - Test: 368 (25%)
 
 ### 1. Logistics Regression Model
- - Logistic regression is best used to predict binary outputs with two possible values labeled "0" or "1"
- - Logistic model output can be one of two classes: pass/fail, win/lose, healthy/sick, etc.
- - Logistic regression algorithm works by implementing a linear equation first with independent predictors to predict a value. 
+ - Logistic regression is best used to predict binary outputs with two possible values labeled "0" or "1".
+ - Logistic model output can be one of two classes: stayed/left, pass/fail, win/lose, etc.
+ - Logistic regression algorithm works by implementing a linear equation first with independent predictors to predict a value.
+ 
 
 ### 2. Random Forest Classifier Model
  - Decision Trees are supervised Machine Learning technique where the data is split according to a certain condition/parameter. 
