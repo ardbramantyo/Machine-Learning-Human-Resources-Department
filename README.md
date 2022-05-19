@@ -30,11 +30,14 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ### 1. Logistics Regression Model
 ![image](https://user-images.githubusercontent.com/37673834/169258872-4b8e00a5-164f-4a29-9985-805864f0d7c5.png)
 
-
  - Logistic regression is best used to predict binary outputs with two possible values labeled "0" or "1".
  - Logistic model output can be one of two classes: stayed/left, pass/fail, win/lose, etc.
  - Logistic regression algorithm works by implementing a linear equation first with independent predictors to predict a value.
- 
+``` ruby
+model = LogisticRegression()
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+```
 
 ### 2. Random Forest Classifier Model
 ![image](https://user-images.githubusercontent.com/37673834/169261437-ebbbbf42-e0c7-4dfa-8528-47c52edf93e9.png)
