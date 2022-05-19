@@ -14,8 +14,6 @@ To avoid AI misunderstanding when interpreting data, 2 variables (X) are made ba
 Variables:
 1. Categorical(X_cat): Anything from fields exclude Attrition that has object data type
 2. Numerical(X_numerical):  Anything from fields that has numerical data type.
-
-Code:
 ``` ruby
 from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
