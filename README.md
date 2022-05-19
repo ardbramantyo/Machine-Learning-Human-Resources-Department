@@ -6,7 +6,7 @@ This project is aimed to develop Machine Learning models and make comparative pr
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
 #### Data Cleaning
-To avoid AI misunderstanding, 2 variables are made based on their data type: object and integer
+To avoid AI misunderstanding, 2 variables are made based on their data type.
 1. Categorical: Anything from fields exclude Attrition  object data type
 2. Numerical:  Anything from fields with numerical data type.
 
