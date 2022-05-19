@@ -16,6 +16,11 @@ from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
 X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ```
+Model Accuracy Test Method:
+1. Logistic Regression
+2. Random Forest
+3. Deep Learning Model
+
 #### Logistics Regression Evaluation
 Accuracy measurement:
 Training: 1102 (75%)
