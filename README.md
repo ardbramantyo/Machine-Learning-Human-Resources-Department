@@ -42,6 +42,7 @@ Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analy
 |                 | YearsSinceLastPromotion  |
 |                 | YearsWithCurrManager     |
 
+Converting using scikit-learn from Categorical field into number
 ``` ruby
 from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
@@ -62,10 +63,11 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 7. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
 8. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 9. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-10. https://seaborn.pydata.org/generated/seaborn.heatmap.html
-11. https://seaborn.pydata.org/generated/seaborn.countplot.html
-12. https://seaborn.pydata.org/generated/seaborn.kdeplot.html
-13. https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
+10. https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+11. https://seaborn.pydata.org/generated/seaborn.heatmap.html
+12. https://seaborn.pydata.org/generated/seaborn.countplot.html
+13. https://seaborn.pydata.org/generated/seaborn.kdeplot.html
+14. https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
 15. https://www.tensorflow.org/guide/keras/train_and_evaluate
 16. https://www.tensorflow.org/api_docs/python/tf/keras/Model
-14. https://towardsdatascience.com/a-practical-guide-to-implementing-a-random-forest-classifier-in-python-979988d8a263
+17. https://towardsdatascience.com/a-practical-guide-to-implementing-a-random-forest-classifier-in-python-979988d8a263
