@@ -21,7 +21,7 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 2. Random Forest
 3. Deep Learning Model 
 
-### Accuracy measurement Method:
+### Accuracy Measurement Method:
  - Training: 1102 (75%)
  - Test: 368 (25%)
 
