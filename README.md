@@ -30,6 +30,12 @@ Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analy
 |                 | YearsSinceLastPromotion  |
 |                 | YearsWithCurrManager     |
 
+```
+from sklearn.preprocessing import OneHotEncoder
+onehotencoder = OneHotEncoder()
+X_cat = onehotencoder.fit_transform(X_cat).toarray()
+```
+
 #### Model Accuracy
 
 ![image](https://user-images.githubusercontent.com/37673834/169185958-bc168712-12f0-46a0-bc03-00b51799d58f.png)
