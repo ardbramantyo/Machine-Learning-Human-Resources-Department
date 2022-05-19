@@ -1,7 +1,7 @@
 ### Comparative Machine Learning Method to Predict Employee Attrition
 Data Source: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 ### Overview
-The project is aimed to develop Machine Learning models and make comparative prediction from employees data (1470 rows data) that could better predict Employees attrition.
+The project is aimed to develop Machine Learning models and make comparative prediction from employees data (1470 rows of data) that could better predict Employees attrition.
 
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
@@ -21,17 +21,30 @@ X_cat = onehotencoder.fit_transform(X_cat).toarray()
 2. Random Forest
 3. Deep Learning Model 
 
-### Accuracy measurement:
+### Accuracy measurement Method:
  - Training: 1102 (75%)
  - Test: 368 (25%)
 
 ### 1. Logistics Regression Evaluation
-Accuracy 88.56%
+ - Logistic regression is best used to predict binary outputs with two possible values labeled "0" or "1"
+ - Logistic model output can be one of two classes: pass/fail, win/lose, healthy/sick, etc.
+ - Logistic regression algorithm works by implementing a linear equation first with independent predictors to predict a value. 
 
 ### 2. Random Forest Evaluation
+ - Decision Trees are supervised Machine Learning technique where the data is split according to a certain condition/parameter. 
+ - Random Forest Classifier is a type of ensemble algorithm. 
+ - It creates a set of decision trees from randomly selected subset of training set. 
+ - It then combines votes from different decision trees to decide the final class of the test object.
 
 ### 3. Deep Learning Model Evaluation
+**Parameter:**
+1. Input = 50 (from table fields)
+2. Hidden Layer = 3 layers (dense, 500 neurons each, relu activation function)
+3. Output = 1 (sigmoid activation function)
+4. Epochs = 100 
+5. Batch size = 50
 
+#### Deep Learning Performance:
 ![image](https://user-images.githubusercontent.com/37673834/169192599-d06e652a-7a06-4309-b9e5-d2f6e7eab3ff.png)
 
 
@@ -45,6 +58,8 @@ Confusion Matrix: Logistic Regression(left), Random Forest(mid), Deep Learning(r
 | Logistic Regression|         89 |
 | Random Forest      |         85 |
 | Deep Learning      |         83 |
+
+### Conclusion
 
 ### Reference:
 1. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
