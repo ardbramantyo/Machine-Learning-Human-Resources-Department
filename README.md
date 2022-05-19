@@ -7,8 +7,8 @@ The project is aimed to develop Machine Learning models and make comparative pre
 
 #### Data Cleaning
 To avoid AI misunderstanding, 2 variables are made based on their data type.
-1. Categorical: Anything from fields exclude Attrition  object data type
-2. Numerical:  Anything from fields with numerical data type.
+1. Categorical: Anything from fields exclude Attrition that has object data type
+2. Numerical:  Anything from fields that has numerical data type.
 
 Converting Categorical variable data type using scikit-learn into number:
 ``` ruby
