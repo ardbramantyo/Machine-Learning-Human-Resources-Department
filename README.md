@@ -19,7 +19,7 @@ from sklearn.preprocessing import OneHotEncoder
 onehotencoder = OneHotEncoder()
 X_cat = onehotencoder.fit_transform(X_cat).toarray()
 ```
-### Model Accuracy Test Method:
+### Machine Learning Methods Used for This Case:
 1. Logistic Regression
 2. Random Forest
 3. Deep Learning Model 
