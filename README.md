@@ -5,7 +5,7 @@ The project is aimed to develop Machine Learning models and make comparative pre
 
 **Tools:** Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Tensorflow, Keras
 
-### Data Visualization
+### Exploratory Data Analysis
 ![image](https://user-images.githubusercontent.com/37673834/169264965-dfecf0e7-af31-44c7-8209-24530e81043c.png)
 
 ### Data Cleaning
